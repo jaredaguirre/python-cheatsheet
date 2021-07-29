@@ -1080,7 +1080,8 @@ Timezone
 
 
 ### Regex
-
+Regex stands for 'Regular Expression', and in Python you have to write it by anticipating a "r" before the expression `r"(<regex>)"`
+Example: `r"([a-zA-Z])"`
 
 ```python
 import re
