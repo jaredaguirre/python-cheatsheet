@@ -6,10 +6,10 @@ However, some of the items were modified for personal understanding. Some of the
 ## Contents
 
 ### Python Types:
-[Numbers](#), [Strings](#), [Booleans](#), [Fundamental Data Structures Comparison](#), [Lists](#), [Tuples](#), [Sets](#),[Dictionaries](#), [None](#)
+[Numbers](#numbers), [Strings](#strings), [Booleans](#booleans), [Fundamental Data Structures Comparison](#fundamental-data-structures-comparison), [Lists](#lists), [Tuples](#tuples), [Sets](#sets),[Dictionaries](#dictionaries), [None](#none)
 
 ### Python Basics:
-[Comparison Operators](#), [Logical](#) [Operators](#), [Loops](#), [Range](#), [Enumerate](#), [Counter](#), [Named Tuple](#), [OrderedDict](#)
+[Comparison Operators](#comparison-operators), [Logical](#) [Operators](#), [Loops](#), [Range](#), [Enumerate](#), [Counter](#), [Named Tuple](#), [OrderedDict](#)
 
 ### Functions:
 [Functions](#), [Lambda](#), [Comprehensions](#), [Map](#), [Filter](#), [Reduce](#), [Ternary](#), [Any](#), [All](#), [Closures](#), [Scope](#)
