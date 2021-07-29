@@ -6,16 +6,16 @@ However, some of the items were modified for personal understanding. Some of the
 ## Contents
 
 ### Python Types:
-[Numbers](#numbers), [Strings](#strings), [Booleans](#booleans), [Fundamental Data Structures Comparison](#fundamental-data-structures-comparison), [Lists](#lists), [Tuples](#tuples), [Sets](#sets),[Dictionaries](#dictionaries), [None](#none)
+[Numbers](#numbers), [Strings](#strings), [Booleans](#booleans), [Fundamental Data Structures Comparison](#fundamental-data-structures-comparison), [Lists](#lists), [Tuples](#tuples), [Sets](#sets), [Dictionaries](#dictionaries), [None](#none)
 
 ### Python Basics:
-[Comparison Operators](#comparison-operators), [Logical](#) [Operators](#), [Loops](#), [Range](#), [Enumerate](#), [Counter](#), [Named Tuple](#), [OrderedDict](#)
+[Comparison Operators](#comparison-operators), [Logical Operators](#logical-operators), [Loops](#loops), [Range](#range), [Enumerate](#enumerate), [Counter](#counter), [Named Tuple](#named-tuple)
 
 ### Functions:
-[Functions](#), [Lambda](#), [Comprehensions](#), [Map](#), [Filter](#), [Reduce](#), [Ternary](#), [Any](#), [All](#), [Closures](#), [Scope](#)
+[Functions](#functions), [Lambda](#lambda), [Comprehensions](#comprehensions), [Map/Filter/Reduce](#map-filter-reduce), [Ternary](#ternary-operator), [Any/All](#any-all), [Closures](#closures), [Scope](#scope)
 
 ### Advanced Python:
-[Modules](#), [Iterators](#), [Generators](#), [Decorators](#), [Class](#), [Exceptions](#), [Command Line Arguments](#), [File IO](#), [Useful Libraries](#)
+[Modules](#modules), [Iterators](#iterators), [Generators](#generators), [Decorators](#decorators), [Class](#classes), [Exceptions](#exceptions-and-error-handling), [Command Line Arguments](#command-line-arguments), [File IO](#file-io), [Useful Libraries](#useful-libraries)
 
 ## Numbers
 Python's 2 main types for Numbers are integers and floating point numbers
