@@ -18,7 +18,7 @@ However, some of the items were modified for personal understanding. Some of the
 [Modules](#modules), [Iterators](#iterators), [Generators](#generators), [Decorators](#decorators), [Class](#classes), [Exceptions](#exceptions-and-error-handling), [Command Line Arguments](#command-line-arguments), [File IO](#file-io)
 
 ### Useful Built-in Libraries:
-[CSV](#csv), [JSON](#json), [Pickle](#pickle), [Time](#time), [Math](#math), [Statictics](#statictics), [Datetime](#datetime), [Regex](#regex)
+[CSV](#csv), [JSON](#json), [Pickle](#pickle), [Time](#time), [Math](#math), [Statictics](#statictics), [Datetime](#datetime), [Regex](#regex), [Unittest](#unittest)
 
 ## Numbers
 Python's 2 main types for Numbers are integers and floating point numbers
@@ -1141,6 +1141,35 @@ Special Sequences: Expressions below hold true for strings that contain only ASC
 ```
 
 [Back to top](#jares-python-cheatsheet)
+
+## Unittest
+Testing is a way to compare how a program should ideally respond towards an error, and how it actually does. You can see the whole documentation through [here](https://docs.python.org/3/library/unittest.html)
+```python
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
+        # check that s.split fails when the separator is not a string
+        with self.assertRaises(TypeError):
+            s.split(2)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+Some features on the command line:
+```
+python -m unittest -v
+```
 
 *More info at https://github.com/gto76/python-cheatsheet*
 
