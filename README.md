@@ -58,3 +58,92 @@ pi = input("What is the value of pi?")
 pi = float(pi)
 ```
 [Back to top](#jares-python-cheatsheet)
+
+## Strings
+Strings in python are stored as sequences of letters in memory
+
+```python
+type('Buenaaaardooo') # str
+
+'I\'m thirsty'
+"I'm thirsty"
+"\n" # new line
+"\t" # adds a tab
+
+'Hey you!'[4]   # y
+name = 'Jared Aguirre'
+name[4]         # d
+name[:]         # Jared Aguirre
+name[1:]        # ared Aguirre
+name[:1]        # J
+name[-1]        # e
+name[::1]       # Jared Aguirre
+name[::-1]      # erriugA deraJ
+name[0:10:2]    # JrdAu
+# : is called slicing and has the format [ start : end : step ]
+
+'Hi there ' + 'Timmy' # 'Hi there Timmy' --> This is called string concatenation
+'*'*10 # **********
+```
+
+```python
+# Basic Functions
+len('turtle') # 6
+
+# Basic Methods
+'  I am alone '.strip()               # 'I am alone' --> Strips all whitespace characters from both ends.
+'On an island'.strip('d')             # 'On an islan' --> # Strips all passed characters from both ends.
+'but life is good!'.split()           # ['but', 'life', 'is', 'good!']
+'Help me'.replace('me', 'you')        # 'Help you' --> Replaces first with second param
+'Need to make fire'.startswith('Need')# True
+'and cook rice'.endswith('rice')      # True
+'bye bye'.index('e')                  # 2
+'still there?'.upper()                # STILL THERE?
+'HELLO?!'.lower()                     # hello?!
+'ok, I am done.'.capitalize()         # 'Ok, I am done.'
+'oh hi there'.find('i')               # 4 --> returns the starting index position of the first occurrence
+'oh hi there'.count('e')              # 2
+```
+
+```python
+# String Formatting
+name1 = 'Jared'
+name2 = 'Pamela'
+print(f'Hello there {name1} and {name2}')           # Hello there Jared and Pamela
+print('Hello there {} and {}'.format(name1, name2)) # Hello there Jared and Pamela
+print('Hello there %s and %s' %(name1, name2))      # Hello there Jared and Pamela --> you can also use %d, %f, %r for integers, floats, string representations of objects respectively
+```
+```python
+# Palindrome check
+word = 'reviver'
+pal = bool(word.find(word[::-1]) + 1)
+print(pal) # True
+```
+[Back to top](#jares-python-cheatsheet)
+
+## Booleans
+Logical values (True or False). Used for comparison and logical operations in Python
+
+```python
+bool(True)    # True
+bool(False)   # False
+
+# all of the below statements are considered as False. Everything else will return True in Python.
+print(bool(None))
+print(bool(False))
+print(bool(0))
+print(bool(0.0))
+print(bool([]))
+print(bool({}))
+print(bool(()))
+print(bool(''))
+print(bool(range(0)))
+print(bool(set()))
+
+# See Logical Operators and Comparison Operators section for more on booleans.
+```
+
+[Back to top](#jares-python-cheatsheet)
+
+## Lists
+Unlike strings, lists are mutable sequences in Python
