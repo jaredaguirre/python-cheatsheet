@@ -14,8 +14,8 @@ texto normal? Seh, re loco
 Abajo una linea divisora:
 ***
 
-#Jare's Python Cheatsheet
+# Jare's Python Cheatsheet
 
-##Contents
-###Python Types:
+## Contents
+### Python Types:
 [Numbers](#), [Strings](#), [Booleans](#), [Lists](#), [Dictionaries](#), [Tuples](#), [Sets](#), [None](#)
