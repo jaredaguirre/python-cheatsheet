@@ -287,6 +287,10 @@ z = [(1, 2), (3, 4), (5, 6), (7, 8)] # Some output of zip() function
 unzip = lambda z: list(zip(*z))
 unzip(z)
 ```
+
+[Back to top](#jares-python-cheatsheet)
+
+
 ## Sets
 Unordered collection of unique elements (Very useful for discrete maths)
 
@@ -321,6 +325,8 @@ set1.isdisjoint(set2)                 # False --> return True if two sets have a
 # hashable --> it can be used as a key in a dictionary or as an element in a set.
 <frozenset> = frozenset(<collection>)
 ```
+[Back to top](#jares-python-cheatsheet)
+
 
 ## Dictionaries
 Also known as mappings or hash tables. They are key value pairs that are guaranteed to retain order of insertion
@@ -393,6 +399,9 @@ Absence of a value (*Void* in another languages). Can be used to show nothing ha
 type(None) # NoneType
 a = None
 ```
+
+[Back to top](#jares-python-cheatsheet)
+
 
 ## Comparison Operators
 Some therms first: *Operator* is the symbol that compares two *operands*
@@ -521,8 +530,8 @@ f'{person.height}'           # '187'
 [Back to top](#jares-python-cheatsheet)
 
 ## Functions
-\*args and **kwargs
-Splat (\*) expands a collection into positional arguments, while splatty-splat (**) expands a dictionary into keyword arguments
+\*args and \*\*kwargs
+Splat (\*) expands a collection into positional arguments, while splatty-splat (\*\*) expands a dictionary into keyword arguments
 
 ```python
 args   = (1, 2)
@@ -530,7 +539,7 @@ kwargs = {'x': 3, 'y': 4, 'z': 5}
 some_func(*args, **kwargs) # same as some_func(1, 2, x=3, y=4, z=5)
 ```
 
-* Inside Function Definition
+\* Inside Function Definition
 Splat combines zero or more positional arguments into a tuple, while splatty-splat combines zero or more keyword arguments into a dictionary.
 ```python
 def add(*a):
@@ -924,6 +933,8 @@ def write_to_csv_file(filename, rows):
         writer = csv.writer(file, delimiter=';')
         writer.writerows(rows)
 ```
+[Back to top](#jares-python-cheatsheet)
+
 ### JSON
 ```python
 import json
@@ -941,6 +952,8 @@ def write_to_json_file(filename, an_object):
         json.dump(an_object, file, ensure_ascii=False, indent=2)
 
 ```
+
+[Back to top](#jares-python-cheatsheet)
 ### Pickle
 
 ```python
@@ -959,6 +972,9 @@ def write_to_pickle_file(filename, an_object):
         pickle.dump(an_object, file)
         
 ```
+
+[Back to top](#jares-python-cheatsheet)
+
 ### Time
 ```python
 from time import time
@@ -966,6 +982,9 @@ start_time = time()  # Seconds since
 ...
 duration = time() - start_time
 ```
+
+[Back to top](#jares-python-cheatsheet)
+
 
 ### Math
 ```python
@@ -975,10 +994,17 @@ from math import log, log10, log2
 from math import inf, nan, isinf, isnan
 ```
 
+[Back to top](#jares-python-cheatsheet)
+
+
 ### Statictics
 ```python
 from statistics import mean, median, variance, pvariance, pstdev
 ```
+
+[Back to top](#jares-python-cheatsheet)
+
+
 ### Random
 ```python
 from random import random, randint, choice, shuffle
@@ -987,6 +1013,10 @@ randint(0, 100) # random integer between 0 and 100
 random_el = choice([1,2,3,4]) # select a random element from list
 shuffle([1,2,3,4]) # shuffles a list
 ```
+
+
+[Back to top](#jares-python-cheatsheet)
+
 
 ### Datetime
 Module 'datetime' provides 'date' \<D>, 'time' \<T>, 'datetime' \<DT> and 'timedelta' \<TD> classes. All are immutable and hashable.
@@ -1025,6 +1055,10 @@ Timezone
 <DTa>    = <DT>.astimezone(<tz>)            # Datetime, converted to passed timezone.
 <Ta/DTa> = <T/DT>.replace(tzinfo=<tz>)      # Unconverted object with new timezone.
 ```
+
+[Back to top](#jares-python-cheatsheet)
+
+
 ### Regex
 ```python
 import re
@@ -1049,6 +1083,8 @@ Special Sequences: Expressions below hold true for strings that contain only ASC
 '\s' == '[ \t\n\r\f\v]'  # Whitespace
 '\w' == '[a-zA-Z0-9_]'   # Alphanumeric
 ```
+
+[Back to top](#jares-python-cheatsheet)
 
 More info at https://github.com/gto76/python-cheatsheet
   
