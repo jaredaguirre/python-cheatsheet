@@ -1139,7 +1139,8 @@ Special Sequences: Expressions below hold true for strings that contain only ASC
 '\s' == '[ \t\n\r\f\v]'  # Whitespace
 '\w' == '[a-zA-Z0-9_]'   # Alphanumeric
 ```
-By the way, here you have a great site to test your regular expressions: [regex101](https://regex101.com/)
+By the way, [here](https://regex101.com/) you have a great site to test your regular expressions
+
 [Back to top](#jares-python-cheatsheet)
 
 ## Unittest
