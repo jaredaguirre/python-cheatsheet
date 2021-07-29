@@ -876,9 +876,13 @@ finally:
 
 ## Command Line Arguments
 ```python
+# If this is a file called 'main.py' and we open it by using on terminal:
+# $python3 main.py some_value
+
 import sys
-script_name = sys.argv[0]
-arguments   = sys.argv[1:]
+script_name = sys.argv[0]   #script_name = 'main.py'
+arguments   = sys.argv[1:]  #arguments = ['some_value']
+
 ```
 [Back to top](#jares-python-cheatsheet)
 
