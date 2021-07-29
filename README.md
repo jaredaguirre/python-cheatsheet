@@ -1080,6 +1080,8 @@ Timezone
 
 
 ### Regex
+
+
 ```python
 import re
 <str>   = re.sub(<regex>, new, text, count=0)  # Substitutes all occurrences.
@@ -1087,6 +1089,35 @@ import re
 <list>  = re.split(<regex>, text, maxsplit=0)  # Use brackets in regex to keep the matches.
 <Match> = re.search(<regex>, text)             # Searches for first occurrence of pattern.
 <Match> = re.match(<regex>, text)              # Searches only at the beginning of the text.
+```
+
+```python
+#IP regex example
+import re
+
+pattern = re.compile(r"([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})")
+
+string_a = "120.0.0.1 Baby Yoda was here 180.34.55.101"
+string_b = "101.23.24.90"
+
+pattern.search(string_a)       # <re.Match object; span=(0, 9), match='120.0.0.1'>
+pattern.findall(string_a)      # ['120.0.0.1', '180.34.55.101']
+pattern.fullmatch(string_a)    # None
+pattern.match(string_a)        # <re.Match object; span=(0, 9), match='120.0.0.1'>
+
+pattern.search(string_b)       # <re.Match object; span=(0, 12), match='101.23.24.90'>
+pattern.findall(string_b)      # ['101.23.24.90']
+pattern.fullmatch(string_b)    # <re.Match object; span=(0, 12), match='101.23.24.90'>
+pattern.match(string_b)        # <re.Match object; span=(0, 12), match='101.23.24.90'>
+```
+```python
+# Groups and subgroups example
+m = re.match(r"(\w+) (\w+)", "Isaac Newton, physicist")
+
+m.group(0)      # 'Isaac Newton' --> The entire match
+m.group(1)      # 'Isaac'        --> The first parenthesized subgroup.
+m.group(2)      # 'Newton'       --> The second parenthesized subgroup.
+m.group(1, 2)   # ('Isaac', 'Newton') --> Multiple arguments give us a tuple.
 ```
 Match Object
 ```python
