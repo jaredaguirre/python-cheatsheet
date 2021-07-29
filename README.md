@@ -12,19 +12,10 @@ texto normal? Seh, re loco
 [Mira este link re cheto](#Titulo)
 
 Abajo una linea divisora:
----
+***
 
+#Jare's Python Cheatsheet
 
-
-
-
-
-
-
-
-Espacio
-
-
-
-
-
+##Contents
+###Python Types:
+[Numbers](#), [Strings](#), [Booleans](#), [Lists](#), [Dictionaries](#), [Tuples](#), [Sets](#), [None](#)
