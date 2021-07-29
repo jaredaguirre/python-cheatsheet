@@ -17,7 +17,7 @@ However, some of the items were modified for personal understanding. Some of the
 ### Advanced Python:
 [Modules](#modules), [Iterators](#iterators), [Generators](#generators), [Decorators](#decorators), [Class](#classes), [Exceptions](#exceptions-and-error-handling), [Command Line Arguments](#command-line-arguments), [File IO](#file-io)
 
-### [Useful Libraries](#useful-libraries):
+### [Useful Libraries](#useful-built-in-libraries):
 [CSV](#csv), [JSON](#json), [Pickle](#pickle), [Time](#time), [Math](#math), [Statictics](#statictics), [Datetime](#datetime), [Regex](#regex)
 
 ## Numbers
