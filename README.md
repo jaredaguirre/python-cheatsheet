@@ -12,13 +12,16 @@ However, some of the items were modified for personal understanding. Some of the
 [Comparison Operators](#comparison-operators), [Logical Operators](#logical-operators), [Loops](#loops), [Range](#range), [Enumerate](#enumerate), [Counter](#counter), [Named Tuple](#named-tuple)
 
 ### Functions:
-[Functions](#functions), [Lambda](#lambda), [Comprehensions](#comprehensions), [Map/Filter/Reduce](#map-filter-reduce), [Ternary](#ternary-condition), [Any/All](#any--all), [Closures](#closures), [Scope](#scope)
+[Functions](#functions), [Lambda](#lambda), [Comprehensions](#comprehensions), [Map/Filter/Reduce](#map--filter--reduce), [Ternary](#ternary-condition), [Any/All](#any--all), [Closures](#closures), [Scope](#scope)
 
 ### Advanced Python:
 [Modules](#modules), [Iterators](#iterators), [Generators](#generators), [Decorators](#decorators), [Class](#classes), [Exceptions](#exceptions-and-error-handling), [Command Line Arguments](#command-line-arguments), [File IO](#file-io)
 
 ### Useful Built-in Libraries:
 [CSV](#csv), [JSON](#json), [Pickle](#pickle), [Time](#time), [Math](#math), [Statictics](#statictics), [Datetime](#datetime), [Regex](#regex), [Unittest](#unittest)
+
+### Cool Libraries:
+[Pillow](#https://pillow.readthedocs.io/en/stable/handbook/overview.html)
 
 ## Numbers
 Python's 2 main types for Numbers are integers and floating point numbers
