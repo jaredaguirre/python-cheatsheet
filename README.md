@@ -21,7 +21,7 @@ However, some of the items were modified for personal understanding. Some of the
 [CSV](#csv), [JSON](#json), [Pickle](#pickle), [Time](#time), [Math](#math), [Statictics](#statictics), [Datetime](#datetime), [Regex](#regex), [Unittest](#unittest)
 
 ### Cool Libraries:
-[Pillow](#https://pillow.readthedocs.io/en/stable/handbook/overview.html)
+[Pillow](https://pillow.readthedocs.io/en/stable/handbook/overview.html)
 
 ## Numbers
 Python's 2 main types for Numbers are integers and floating point numbers
