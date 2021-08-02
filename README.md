@@ -23,6 +23,9 @@ However, some of the items were modified for personal understanding. Some of the
 ### Cool Libraries:
 [Pillow](https://pillow.readthedocs.io/en/stable/handbook/overview.html), [pprint](https://docs.python.org/3/library/pprint.html)
 
+### Concepts
+[Virtual Environments](#virtual-environments)
+
 ## Numbers
 Python's 2 main types for Numbers are integers and floating point numbers
 
@@ -1173,6 +1176,20 @@ if __name__ == '__main__':
 Some features on the command line:
 ```
 python -m unittest -v
+```
+
+## Virtual Environments
+A Virtual Environment is like a separated world inside your machine, that you can create in order to set different versions of already-installed libraries. Because it's a separate world, you may use it as a blank sheet to start installing anything your program needs, without affecting the rest of your computer.
+
+See more at: [https://docs.python.org/3/library/venv.html]
+
+Create the venv
+```
+$ python3 -m venv /path/to/new/virtual/environment
+```
+Then activate it
+```
+$ source <venv>/bin/activate
 ```
 
 *More info at https://github.com/gto76/python-cheatsheet*
