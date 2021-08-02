@@ -1191,6 +1191,9 @@ Then activate it
 ```
 $ source <venv>/bin/activate
 ```
+Now you will see the name of your environment at the beginning of the terminal. And you can install whatever you want. For example:
+Screen Shot 2021-08-02 at 02.26.27.png<img width="799" alt="Screen Shot 2021-08-02 at 02 26 27" src="https://user-images.githubusercontent.com/64754731/127808472-62a10eae-d02d-479c-855c-16060db42cf5.png">
+
 
 *More info at https://github.com/gto76/python-cheatsheet*
 
